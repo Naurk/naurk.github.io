@@ -64,3 +64,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+languages:
+  en: "English"
+  it: "Italiano"
