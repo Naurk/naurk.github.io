@@ -36,7 +36,7 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
-permalink: 'blog/:title'
+permalink: 'blog/:lang/:title/'
 compress_html:
   clippings: all
 defaults:
