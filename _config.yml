@@ -36,6 +36,7 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
 permalink: 'blog/:lang/:title/'
 compress_html:
   clippings: all
@@ -63,6 +64,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-languages:
-  en: "English"
-  it: "Italiano"
+languages: ["en", "it"]  # Elenco delle lingue che vuoi supportare
+default_lang: "en"       # Lingua predefinita del sito
