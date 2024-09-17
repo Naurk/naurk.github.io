@@ -49,6 +49,11 @@ layout: compress
             <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
                 {{ words | divided_by:180 }} min
               </b>READ</p>
+            <p class="subtitle is-uppercase">
+            <i class="fas fa-language"></i> <b class="has-text-link">LANGUAGE: </b>
+            <button class="button is-small is-info is-light" onclick="window.location.href='{{ page.url | replace: '.md', '.en.md' }}'">EN</button>
+            <button class="button is-small is-info is-light" onclick="window.location.href='{{ page.url | replace: '.md', '.it.md' }}'">IT</button>
+            </p>
             {%- endunless -%}
           </div>
         </div>
