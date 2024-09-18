@@ -1,6 +1,7 @@
 ---
 title: Test Page
 layout: page
+lang: en
 ---
 
 # This is heading 1
