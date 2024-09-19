@@ -24,8 +24,14 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
+      - name: Check installed gems
+        run: bundle list
+
       - name: Build the site
         run: bundle exec jekyll build
+
+      - name: List site directory
+        run: ls -al _site
 
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push'
