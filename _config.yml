@@ -33,7 +33,7 @@ plugins:
   - jekyll-admin
   - jekyll-feed
   - jekyll-polyglot
-permalink: blog/:lang/:title/
+permalink: blog/:title/
 compress_html:
   clippings: all
 defaults:
