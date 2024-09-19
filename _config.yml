@@ -2,7 +2,7 @@ markdown: kramdown
 url: ''
 baseurl: null
 title: Naurk
-description: Portfolio
+description: #Portfolio
 site-image: /WhatATheme/assets/images/meta.jpg
 site-keywords: 'Site, Template, Theme'
 favicon-url: 'null'
