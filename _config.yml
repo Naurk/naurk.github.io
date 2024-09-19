@@ -1,11 +1,11 @@
 markdown: kramdown
 url: ''
-baseurl: null
+baseurl: ''
 title: Naurk
 description: #Portfolio
 site-image: /WhatATheme/assets/images/meta.jpg
 site-keywords: 'Site, Template, Theme'
-favicon-url: 'null'
+#favicon-url: 'null'
 heroimage: /assets/images/hero-image.jpg
 email: neonaurk@gmail.com
 facebook_username: /
@@ -33,7 +33,7 @@ plugins:
   - jekyll-admin
   - jekyll-feed
   - jekyll-polyglot
-permalink: 'blog/:lang/:title/'
+permalink: '/:lang/:title/' #'blog/:lang/:title/'
 compress_html:
   clippings: all
 defaults:
@@ -62,5 +62,5 @@ exclude:
   - vendor/ruby/
 languages: ["en", "it"]  # Elenco delle lingue che vuoi supportare
 default_lang: "en"       # Lingua predefinita del sito
-exclude_from_localization: ["assets"]
+exclude_from_localization: ["assets", "images", "js", "css", "_site", ".github", "_sass", "404.md", "CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 parallel_localization: true
