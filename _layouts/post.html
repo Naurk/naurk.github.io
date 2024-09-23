@@ -51,8 +51,8 @@ layout: compress
               </b>READ</p>
             <p class="subtitle is-uppercase">
             <i class="fas fa-language"></i> <b class="has-text-link">LANGUAGE: </b>
-            <button class="button is-small is-info is-light" onclick="window.location.href='{{ page.url | replace: '.md', '-en.md' }}'">EN</button>
-            <button class="button is-small is-info is-light" onclick="window.location.href='{{ page.url | replace: '.md', '-it.md' }}'">IT</button>
+            <a class="button is-small is-info is-light" href="window.location.href='{{ page.url | replace: '-it', '-en' }}'">EN</a>
+            <a class="button is-small is-info is-light" href="window.location.href='{{ page.url | replace: '-en', '-it' }}'">IT</a>
             </p>
             {%- endunless -%}
           </div>
