@@ -18,11 +18,12 @@ layout: compress
         </div>
         <div id="results-container"></div>
         <!--Blog Cards Section-->
-        {% for post in site.posts %}
-        {% if post.path contains 'it' %}
-        {% include blog-card.html %}
-        {% endif %}
-        {% endfor %} 
+        {% assign lang_code = page.lang %}
+        {% assign lang_path = '_posts/' | append: lang_code %}
+        {% assign posts_in_lang = site.posts | where_exp: "post", "post.path contains lang_path" %}
+        {% for post in posts_in_lang %}
+            {% include blog-card.html post=post %}
+        {% endfor %}
         </div>
     </section>
     <br>
