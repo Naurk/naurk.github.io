@@ -19,8 +19,10 @@ layout: compress
         <div id="results-container"></div>
         <!--Blog Cards Section-->
         {% for post in site.posts %}
-            {% include blog-card.html %}
-        {% endfor %}
+        {% if post.path contains 'it' %}
+        {% include blog-card.html %}
+        {% endif %}
+        {% endfor %} 
         </div>
     </section>
     <br>
