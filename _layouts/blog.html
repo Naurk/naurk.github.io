@@ -21,7 +21,7 @@ lang: it  # Set 'it' for Italian or 'en' for English
         <!--Blog Cards Section-->
         {% for post in site.posts %}
           {% if post.path contains 'it' %}
-             {% include archive-single.html %}
+             {% include blog-card.html %}
           {% endif %}
         {% endfor %} 
         </div>
