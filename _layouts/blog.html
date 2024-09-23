@@ -19,8 +19,8 @@ lang: it  # Set 'it' for Italian or 'en' for English
         </div>
         <div id="results-container"></div>
         <!--Blog Cards Section-->
-        {% for post in site.categories.it %}
-        {% include blog-card.html %}
+        {% for post in site.posts %}
+            {% include blog-card.html %}
         {% endfor %} 
         </div>
     </section>
