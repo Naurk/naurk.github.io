@@ -19,10 +19,11 @@ lang: it  # Set 'it' for Italian or 'en' for English
         </div>
         <div id="results-container"></div>
         <!--Blog Cards Section-->
-        {% assign posts_in_lang = site.posts | where_exp: "post", "post.categories contains page.lang" %}
-        {% for post in posts_in_lang %}
-            {% include blog-card.html post=post %}
-        {% endfor %}
+        {% for post in site.posts %}
+          {% if post.path contains 'it' %}
+             {% include archive-single.html %}
+          {% endif %}
+        {% endfor %} 
         </div>
     </section>
     <br>
