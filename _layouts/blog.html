@@ -1,6 +1,6 @@
 ---
 layout: compress
-lang: it  # Imposta 'it' per italiano o 'en' per inglese
+lang: en  # Imposta 'it' per italiano o 'en' per inglese
 ---
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ lang: it  # Imposta 'it' per italiano o 'en' per inglese
         <!-- Sezione Blog Cards -->
         {% assign lang_code = page.lang %}
         {% assign lang_path = '_posts/' | append: lang_code %}
-        {% assign posts_in_lang = site.posts | where_exp: "post", "post.path contains lang_path" %}
+        {% assign posts_in_lang = site.posts | where_exp: "post", "post.relative_path contains lang_path" %}
 
         {% for post in posts_in_lang %}
             {% include blog-card.html post=post %}
