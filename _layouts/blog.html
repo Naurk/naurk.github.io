@@ -20,9 +20,9 @@ lang: it  # Set 'it' for Italian or 'en' for English
         <div id="results-container"></div>
         <!--Blog Cards Section-->
         {% for post in site.posts %}
-          {% if post.path contains 'it' %}
-             {% include blog-card.html %}
-          {% endif %}
+        {% if post.path contains 'it' %}
+        {% include blog-card.html %}
+        {% endif %}
         {% endfor %} 
         </div>
     </section>
