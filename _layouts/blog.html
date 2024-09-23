@@ -1,6 +1,6 @@
 ---
 layout: compress
-lang: it
+lang: en
 ---
 
 <!DOCTYPE html>
@@ -19,11 +19,8 @@ lang: it
         </div>
         <div id="results-container"></div>
         <!--Blog Cards Section-->
-        {% assign lang_code = page.lang %}
-        {% assign lang_path = '_posts/' | append: lang_code %}
-        {% assign posts_in_lang = site.posts | where_exp: "post", "post.path contains lang_path" %}
-        {% for post in posts_in_lang %}
-            {% include blog-card.html post=post %}
+        {% for post in site.posts %}
+            {% include blog-card.html %}
         {% endfor %}
         </div>
     </section>
