@@ -1,11 +1,11 @@
 markdown: kramdown
 url: ''
-baseurl: ''
+baseurl: null
 title: Naurk
-description: #Portfolio
+description: Portfolio
 site-image: /WhatATheme/assets/images/meta.jpg
 site-keywords: 'Site, Template, Theme'
-#favicon-url: 'null'
+favicon-url: 'null'
 heroimage: /assets/images/hero-image.jpg
 email: neonaurk@gmail.com
 facebook_username: /
@@ -24,7 +24,11 @@ author-name: /
 author-image: >-
   https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 author-about: >-
-  Sa sa, prova, sa sa.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget
+  pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus
+  metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit.
+  Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque
+  sit amet sodales.
 author-url: /
 sass:
   sass_dir: _sass
@@ -32,8 +36,7 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
-  - jekyll-polyglot
-permalink: blog/:lang/:title/
+permalink: 'blog/:title'
 compress_html:
   clippings: all
 defaults:
@@ -60,7 +63,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-languages: ["en", "it"]  # Elenco delle lingue che vuoi supportare
-default_lang: "en"       # Lingua predefinita del sito
-exclude_from_localization: ["assets", "images", "js", "css", "_site", ".github", "_sass", "404.md", "CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
-parallel_localization: true
