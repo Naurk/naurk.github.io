@@ -19,8 +19,7 @@ lang: en  # Imposta 'it' per italiano o 'en' per inglese
         </div>
         <div id="results-container"></div>
         <!-- Sezione Blog Cards -->
-        {% assign lang_code = page.lang %}
-        {% assign posts_in_lang = site.posts | where_exp: "post", "post.categories contains lang_code" %}
+        {% assign posts_in_lang = site.posts | where_exp: "post", "post.categories contains page.lang" %}
 
         {% for post in posts_in_lang %}
             {% include blog-card.html post=post %}
