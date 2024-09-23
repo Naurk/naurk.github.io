@@ -1,5 +1,5 @@
 ---
-title: Sample Post
+title: Post di esempio
 layout: post
 lang: it
 categories: [it]
