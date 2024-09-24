@@ -24,11 +24,12 @@ author-name: /
 author-image: >-
   https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 author-about: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget
-  pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus
-  metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit.
-  Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque
-  sit amet sodales.
+ Welcome to my personal digital den, where I share reflections, research, and projects. 
+ I am Norberto, currently a PhD student in Philosophy at the FINO consortium based at the University of Turin. 
+ My doctoral work focuses on the meta-ethical aspects of agency in artificial intelligence, but my philosophical interests range from the behavior of 
+ natural and artificial systems to the philosophy of biology and animal minds, as well as simulation and robotics. I have worked both as a programmer 
+ and a theorist on these topics, collaborating with the Luciano Gallino Laboratory and the LIFE Laboratory at the University of Turin. To learn more 
+ about my interests and projects—academic and otherwise—you can check out my blog, projects, or contact sections.
 author-url: /
 sass:
   sass_dir: _sass
