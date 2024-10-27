@@ -25,20 +25,13 @@ author-name: /
 author-image: >-
   https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 author-about: >- |
-  Avevo bisogno di raccogliere materiali, progetti e frammenti digitali in un unico posto, così ho creato questo sito.
-  L'idea è di creare un ibrido tra una pagina portfolio ed un blog. Non so se funzionerà, ma sto sperimentando varie forme ed il sito è pesantemente e continuamente in cambiamento. 
-  Trovate il codice sorgente sulla mia pagina github, è un fork di cui trovate informazioni in calce al sito.
-  Sono Norberto, attualmente sto facendo un dottorato in filosofia sull'agency morale e i sistemi di intelligenza artificiale, 
-  ma i miei interessi filosofici spaziano dal comportamento dei sistemi naturali e artificiali alla filosofia della biologia e delle menti animali, fino alla simulazione e alla robotica.
-  Oltre alla teoria, produco e sviluppo materiale di vario genere, come videogiochi, video, fotografia e musica. Potete trovare maggiori informazioni nelle sezioni progetti, blog e contatti. 
-  Grazie dell'attenzione!
-
-  I needed a place to gather materials, projects, and digital fragments in one spot, so I created this site.
-  The idea is to create a hybrid between a portfolio page and a blog. I’m not sure if it will work, but I’m experimenting with various formats, and the site is constantly and heavily evolving.
-  You can find the source code on my GitHub page; it’s a fork with more information provided at the bottom of the site.
-  I’m Norberto, currently pursuing a Ph.D. in philosophy on moral agency and artificial intelligence systems. My philosophical interests range from the behavior of natural and artificial systems to the philosophy of biology and animal minds, as well as simulation and robotics.
-  Beyond theory, I create and develop various types of content, including video games, videos, photography, and music. You can find more information in the projects, blog, and contact sections.
-  Thank you for your attention!
+ Sono Norberto, attualmente sto facendo un dottorato in filosofia sull'agency morale e i sistemi di intelligenza artificiale, 
+ ma i miei interessi filosofici spaziano dal comportamento dei sistemi naturali e artificiali alla filosofia della biologia e delle menti animali, fino alla simulazione e alla robotica.
+ Oltre alla teoria, produco e sviluppo materiale di vario genere, come videogiochi, video, fotografia e musica. Potete trovare maggiori informazioni nelle sezioni progetti, blog e contatti. Grazie dell'attenzione!
+ 
+ I needed a place to gather materials, projects, and digital fragments in one spot, so I created this site. The idea is to create a hybrid between a portfolio page and a blog. I’m not sure if it will work, but I’m experimenting with various formats, and the site is constantly and heavily evolving.
+ You can find the source code on my GitHub page; it’s a fork with more information provided at the bottom of the site.
+ I’m Norberto, currently pursuing a Ph.D. in philosophy on moral agency and artificial intelligence systems. My philosophical interests range from the behavior of natural and artificial systems to the philosophy of biology and animal minds, as well as simulation and robotics.
   sass_dir: _sass
   style: compressed
 plugins:
